@@ -1,0 +1,316 @@
+$primary_font:'Epilogue';
+$secondary_font:'Fredoka';
+$primary_color:#F3274C;
+$secondary_color:#FFD40D;
+$ternary_color:#b6b6b6;
+$forth_color:#ffffff;
+$primary_background:#f5f8fd;
+$secondary_background:#f3264c;
+$para_size:1em;
+$main_heading:3.8em;
+$small_heading:2.4em;
+$padding_top:2.4rem;
+$padding_bottom:2.4rem;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /*font-family:'Epilogue';
+    font-family:'Fredoka';*/
+    font-family: $secondary_font;
+}
+
+//start slider section//
+.slide1{
+	height: 400px;
+	width: 100%;
+	background: url(../images/services1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px 0px;
+	position: relative;
+	h1 {
+		font-size: 50px;
+		position: absolute;
+		top: -150%;
+		left: 6%;
+		color:#000;
+	}
+	.h {
+		height: 60px;
+		width: 15%;
+		border-radius:5px;
+		padding:16px 21px;
+		background-color:$secondary_background;
+		position:absolute;
+		top:50%;
+		left:8%;
+		a{
+			font-size:18px;
+			font-weight: 900;
+			color:$forth_color;
+			margin:0px 5px;
+			text-decoration: none;
+		}
+		i{
+			font-size:18px;
+			font-weight: 900;
+			color:$forth_color;
+		}
+	}
+}
+//start slide bottom section//
+
+
+.get-touch {
+	min-height: 800px;
+	width: 100%;
+	margin:50px 0px;
+	.division1 {
+		height: 700px;
+		width: 85%;
+		margin: 0px auto;
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		.left {
+			height: 700px;
+			width: 50%;
+			h1 {
+				font-size: 3em;
+				font-weight: 900;
+				padding: 30px 20px;
+			}
+			.top {
+				height: 305px;
+				width: 100%;
+				display: flex;
+				gap: 15px;
+				.top-part1 {
+					height: 261px;
+					width: 50%;
+					background: white;
+					border: 5px solid $secondary_color;
+					border-radius: 20px;
+					position: relative;
+					.icon {
+						height: 80px;
+						width: 80px;
+						border-radius: 50%;
+						background:$secondary_background;
+						position: absolute;
+						top: 15%;
+						left: 40%;
+						i{
+							color:$forth_color;
+							font-size:3.5rem;
+							font-weight:bold;
+							position:absolute;
+							top:0;
+							left:35%;
+						}
+					.envelope1{
+							color:$forth_color;
+							font-size:3rem;
+							font-weight:bold;
+							position:absolute;
+							top:0;
+							left:23%;
+					}
+					}
+					h6 {
+						position: absolute;
+						left: 30%;
+						top: 50%;
+						color: $primary_color;
+						font-size: 22px;
+						font-weight: 600;
+						text-transform: capitalize;
+					}
+					p{
+						font-size:22px;
+						font-weight:900;
+						position:absolute;
+						top:65%;
+						left:6%;
+					}
+					h5 {
+						position: absolute;
+						left: 23%;
+						top: 50%;
+						color: $primary_color;
+						font-size: 22px;
+						font-weight: 600;
+						text-transform: capitalize;
+					}
+				}
+			}
+			i{
+				font-size:33px;
+				font-weight:900;
+				line-height: 30px;
+				margin:25px 0px 0px 0px;
+			}
+			span{
+				font-size:19px;
+				color:$ternary_color;
+				margin:0px 0px 0px 23px;
+			}
+		}
+		.right {
+			height: 700px;
+			width: 50%;
+			background: $forth_color;
+			h1 {
+				font-size: 3em;
+				font-weight: 900;
+				padding: 30px 20px;
+			}
+			p{
+				font-size:19px;
+				color:$ternary_color;
+				line-height:30px;
+				margin:0px 18px;
+			}
+			.int{
+				width:42%;
+				padding:20px 30px;
+				margin:30px 20px;
+				border-radius:10px;
+				border:2px solid #ebf1fb;
+				
+			}
+			::placeholder{
+				font-size:25px;
+				color:$ternary_color;
+				font-weight:bold;
+				text-align: left;
+			}
+			.mobile{
+				width:92%;
+				padding:20px 30px;
+				margin:30px 20px;
+				border-radius:10px;
+				border:2px solid #ebf1fb;
+				display:inline-block;
+			}
+			textarea{
+				width:92%;
+				padding:20px 30px;
+				margin:30px 20px;
+				border-radius:10px;
+				border:2px solid #ebf1fb;
+			}
+			.primary-buttton {
+				padding: 20px 25px;
+				background:$primary_color;
+				color: white;
+				display: inline-block;
+				text-decoration: none;
+				font-size: 15px;
+				font-weight: 900;
+				border-radius: 15px;
+				margin:0px 35px;
+				position: relative;
+				letter-spacing: 1px;
+				z-index: 1;
+				&::after {
+					content: "";
+					position: absolute;
+					width: 0%;
+					height: 1%;
+					background:white;
+					top: 70%;
+					left: 14%;
+					transition: all 0.5s;
+				}
+				&:hover {
+					&:after {
+						width: 73%;
+					}
+					&:before {
+						width:40%;
+					}
+				}
+				&::before {
+					content: "";
+					border: 3px solid $primary_color;
+					position: absolute;
+					top: -13%;
+					left: -5%;
+					height: 115%;
+					width: 85%;
+					border-radius: 15px;
+					z-index: -1;
+					transition: all 0.5s;
+				}
+			}
+			}
+		}
+	}
+
+//end slide bottom section//
+
+//Start Video section in Contact us page//
+	.video-section{
+		height:750px;
+		width:100%;
+		margin:7em 0px 0px;
+		position:relative;
+		.video{
+			height:600px;
+			width:85%;
+			margin:0px auto;
+			border-radius:25px;	
+		}
+		.video-bottom{
+			height:230px;
+			width:75%;
+			background:$secondary_background;
+			margin:0px auto;
+			border-radius:10px;
+			position:absolute;
+			bottom:2%;
+			left:12%;
+			.bottom-part{
+				height:230px;
+				width:90%;
+				margin:0px auto;
+				display:flex;
+				justify-content: space-between;
+				gap:10px;
+				.part{
+					height:230px;
+					width:30%;
+					h1{
+						font-size:30px;
+						font-weight: 900;
+						padding:30px 10px 0px;
+						text-align:center;
+						color:$forth_color;
+						text-transform: capitalize;
+					}
+					p{
+						font-size:25px;
+						font-weight: 900;
+						padding:15px 10px 0px;
+						text-align:center;
+						color:$secondary_color;
+						text-transform: capitalize;
+					}
+					h6{
+						font-size:20px;
+						font-weight:900;
+						padding:15px 10px 0px;
+						text-align:center;
+						color:$forth_color;
+						text-transform: capitalize;
+					}
+				}
+			}
+		}
+	}
+//End Video section in Contact us page//

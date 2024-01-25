@@ -1,0 +1,929 @@
+$primary_font:'Epilogue';
+$secondary_font:'Fredoka';
+$primary_color:#F3274C;
+$secondary_color:#FFD40D;
+$ternary_color:#b6b6b6;
+$forth_color:#ffffff;
+$primary_background:#f5f8fd;
+$secondary_background:#f3264c;
+$para_size:1em;
+$main_heading:3.8em;
+$small_heading:2.4em;
+$padding_top:2.4rem;
+$padding_bottom:2.4rem;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /*font-family:'Epilogue';
+    font-family:'Fredoka';*/
+    font-family: $secondary_font;
+}
+
+
+//start slider section//
+.slide1{
+	height: 400px;
+	width: 100%;
+	background: url(../images/services1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px 0px;
+	position: relative;
+	h1 {
+		font-size: 50px;
+		position: absolute;
+		top: -150%;
+		left: 6%;
+		color:#000;
+	}
+	.h {
+		height: 60px;
+		width: 17%;
+		border-radius:5px;
+		padding:16px 21px;
+		background-color:$secondary_background;
+		position:absolute;
+		top:50%;
+		left:8%;
+		a{
+			font-size:18px;
+			font-weight: 900;
+			color:$forth_color;
+			margin:0px 10px;
+			text-decoration: none;
+		}
+		i{
+			font-size:22px;
+			font-weight: 900;
+			color:$forth_color;
+		}
+	}
+}
+//End the slider section//
+//start About us Section in About us page//
+.outer-about {
+	height: 400px;
+	width: 100%;
+	display: flex;
+}
+.about-div {
+	width: 50%;
+	background-color:$forth_color;
+	h4 {
+		padding: 3rem 0px 0px 6rem;
+		color:$primary_color;
+		font-size: 20px;
+	}
+	h1 {
+		padding: 0px 6rem;
+		font-size: 4rem;
+		letter-spacing: 2px;
+	}
+}
+.about-top {
+	height: 300px;
+	p {
+		padding: 5.2rem;
+		font-size: 1.5rem;
+		line-height: 35px;
+		color:$ternary_color;
+	}
+}
+.about-bottom {
+	height: 90px;
+	display: flex;
+	justify-content: center;
+}
+.about-left {
+	width: 30%;
+	padding: 0.5rem 0px 0px 6rem;
+}
+.about-right {
+	width: 70%;
+	margin: 1.5rem;
+}
+.about-card {
+	height: 700px;
+	width: 100%;
+	gap: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about-card-box1 {
+	height: 550px;
+	width: 30%;
+	background: url(../images/foodio-banner1.png);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	&:hover {
+		.about-card-scale {
+			transform: scale(1) rotate(0);
+		}
+	}
+}
+.about-card-inner {
+	height: 500px;
+	width: 90%;
+	background: transparent;
+	border: 5px solid $secondary_color;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.about-card-bottom {
+	height: 60px;
+	width: 100%;
+	background:$secondary_color;
+	border-radius: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about-card-scale {
+	height: 100%;
+	width: 100%;
+	background:$secondary_background;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: scale(0) rotatey(90deg);
+	transition: all 0.5s;
+}
+.scale-cotnent {
+	padding: 0px 50px;
+	padding: 0px 50px;
+	padding: 0px 50px;
+	h1 {
+		text-align: center;
+		font-size: 35px;
+		color: $forth_color;
+		line-height: 100px;
+	}
+	p {
+		font-size: 18px;
+		line-height: 30px;
+		color: $forth_color;
+		text-align: center;
+	}
+}
+.about-card-button {
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 30px;
+	text-decoration: none;
+	padding: 30px 0px;
+	color: #000;
+	font-weight: 600;
+	margin: 50px auto;
+	border-radius: 10px;
+}
+.about-card-box2 {
+	height: 550px;
+	width: 30%;
+	background: url("../images/restaurant-2.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	margin-top: 150px;
+	position: relative;
+	overflow: hidden;
+	&:hover {
+		.about-card-scale {
+			transform: scale(1) rotate(0);
+		}
+	}
+}
+.about-card-box3 {
+	height: 550px;
+	width: 30%;
+	background: url("../images/restaurant-3.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	&:hover {
+		.about-card-scale {
+			transform: scale(1) rotate(0);
+		}
+	}
+}
+//End About us Section in About us page//
+
+//start sponser section in about us page//
+.sponser {
+	height: 300px;
+	width: 100%;
+	h1 {
+		font-size: 30px;
+		text-align: center;
+		line-height: 100px;
+		margin: 70px 0px 0px 0px;
+	}
+}
+.Image {
+	height: 250px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.Png-Image {
+	width: 11%;
+	height: 70%;
+	background-color: $forth_color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 20px;
+	&:hover {
+		transform: scale(1.2);
+	}
+}
+//End sponser section in about us page//
+
+//start video section in about us page//
+
+.order {
+	height: 600px;
+	width: 100%;
+	display: flex;
+    margin:50px 0px 0px;
+.order-right {
+	width: 70%;
+	background-color: $primary_color;
+	border-radius: 0px 308px 330px 0px;
+	display: flex;
+	align-items: center;
+	.order-right-left {
+		height: 500px;
+		width: 10%;
+	}
+	.order-right-right {
+		height: 500px;
+		width: 80%;
+		background-color: $primary_color;
+		border-radius: 0px 300px 300px 0px;
+		color: $forth_color;
+		h1 {
+			font-size: 60px;
+			font-weight: 600;
+			color: $forth_color;
+		}
+	}
+	.orrder-right-top {
+		height: 20%;
+		background-color: $primary_color;
+		border-radius: 0px 200px 200px 0px;
+		display: flex;
+	}
+	.order-right-top-1 {
+		width: 50%;
+	}
+}
+.orrder-right-bottom {
+	height: 80%;
+	border-radius: 0px 200px 200px 0px;
+	display: flex;
+	gap: 30px;
+	.order-bottom-breck {
+		width: 33.33%;
+		background-color: $primary_color;
+		border-radius: 0px 0px 100px 0px;
+		position:relative;
+        .order-circel {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+            img{
+                background: transparent;
+                height:150px;
+                width:150px;
+            }
+		}
+		h3 {
+			font-size: 1.4em;
+			font-weight: 600;
+			padding: 1em 0em;
+		}
+		p {
+			font-size: 1.1em;
+			line-height: 30px;
+			color: $forth_color;
+		}
+        .w-text{
+            position:absolute;
+            top: -18%;
+            left: 14%;
+            font-weight: 900;
+            font-size: 20px;
+            color:$forth_color;
+        }
+        .arrow{
+            position: absolute;
+            top:-10%;
+            left:43%;
+        }
+	}
+}
+.order-left {
+	height: 500px;
+	width: 500px;
+	border-radius: 50%;
+	position: relative;
+	right: 7%;
+	top: 7%;
+}
+}
+//End video section in about us page//
+
+//Start Restaurant History Section //
+    .Res-history{
+        height: 700px;
+        width:100%;
+        .Res-history-top{
+            height: 200px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+         h1{
+            font-size: 4.3em;
+            font-weight: 900;
+           
+           .hr{
+            height:.145em;
+            width: 50%;
+            background-color:$secondary_color;
+            border-radius: 20px;
+            margin:auto;
+            border:none;
+           }
+        }
+        }
+    .Res-history-bottom{
+        height: 500px;
+    width: 100%;
+    padding: 0px 80px;
+
+    .res-bot1{
+        height:250px;
+        display:flex;
+        gap:20px;
+
+        .res-bot1-box{
+            width: 50%;
+            display:flex;
+            gap:20px;
+            .res-his-img{
+                width:50%;
+                display: flex;
+                gap:10px;
+                margin: 0px 47px 0px 0px;
+                position:relative;
+            .img{
+                    width:100%;
+                    margin:20px 0px;
+                    border-radius: 120px;
+                }
+                .circle{
+                    height:100px;
+                    width:100px;
+                    text-align: center;
+                    color:$forth_color;
+                    border-radius: 50%;
+                    position:absolute;
+                    top:74px;
+                    left:86%;
+                    line-height: 66px;
+                    font-size:1.8em;
+                    background:$primary_color
+                }
+            }
+            .res-his-text{
+                width:30%;
+                text-align: justify;
+                h1{
+                    font-size: 2em;
+                    font-weight: 600;
+                    line-height: 100px;
+                 }
+                 p{
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    color:$ternary_color;
+                 }
+            }
+        }
+    }
+    .res-bot2{
+        height:250px;
+        display:flex;
+        gap:20px;
+
+        .res-bot1-box{
+            width: 50%;
+            display:flex;
+            gap:20px;
+            .res-his-img{
+                width:50%;
+                display: flex;
+                gap:10px;
+                margin: 0px 47px 0px 0px;
+                position:relative;
+            .img{
+                    width:100%;
+                    margin:20px 0px;
+                    border-radius: 120px;
+                }
+                .circle{
+                    height:100px;
+                    width:100px;
+                    text-align: center;
+                    color:$forth_color;
+                    border-radius: 50%;
+                    position:absolute;
+                    top:74px;
+                    left:86%;
+                    line-height: 66px;
+                    font-size:1.8em;
+                    background:$primary_color;
+                }
+            }
+            .res-his-text{
+                width:30%;
+                text-align: justify;
+                h1{
+                    font-size: 2em;
+                    font-weight: 600;
+                    line-height: 100px;
+                 }
+                 p{
+                    font-size: 19px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    color:$ternary_color;
+                 }
+            }
+        }
+    }
+    }
+    }
+//End Restaurant History Section//
+
+//Start history bottom section//
+	.solution{
+			height:750px;
+			width:100%;
+			padding: 50px;
+
+		.solution-top{
+			height:300px;
+			width: 90%;
+			margin:0px auto;
+			display: flex;
+			
+			.solution-top-left{
+					height:250px;
+					width:50%;
+				h4{
+					font-size:28px;
+					margin:10px 30px;
+					letter-spacing: 1px;
+					font-weight:bold;
+					color:$primary_color;
+					text-transform: capitalize;
+				}
+				h1{
+					font-size:4rem;
+					margin:10px 30px;
+					text-transform: capitalize;
+				}
+			}
+		
+			.solution-top-right{
+				height:250px;
+				width:50%;
+				
+				p{
+					font-size: 23px;
+					text-align: justify;
+					color: #b6b6b6;
+					line-height: 34px;
+					font-family: $secondary_font;
+					margin: 2em 46px 0px 10em;
+				}
+
+		}
+		}
+
+
+		.solution-bottom{
+			height:400px;
+			width: 100%;
+			.bottom-top{
+				height:250px;
+				width:100%;
+				display: flex;
+				
+			.circle1{
+				height: 230px;
+				width:25%;
+				border-radius: 50%;
+				margin: 10px 45px;
+				border:5px solid $secondary_color;
+			
+				.inner-circle{
+					height: 200px;
+				width: 200px;
+				border-radius: 50%;
+				background: #FFD40D;
+				margin: 10px 7px;
+				position: relative;
+				display:flex;
+
+			.tea{
+					height:100px;
+					width:100px;
+					position:absolute;
+					top:22%;
+					left:27%;
+				}
+				.van{
+					height:130px;
+					width:130px;
+					position:absolute;
+					top:14%;
+					left:24%;
+				}
+				.cock{
+					height:110px;
+					width:110px;
+					position:absolute;
+					top:19%;
+					left:18%;
+				}
+			.burger{
+					height:110px;
+					width:110px;
+					position:absolute;
+					top:19%;
+					left:24%;
+				}
+			}
+				}
+			}
+			}
+			.bottom-bot{
+				height:150px;
+				width:100%;
+				display: flex;
+				gap:5px;
+			.text-bot{
+				height:150px;
+				width:25%;
+
+			h1{
+				font-size:30px;
+				font-weight: bold;
+				text-align: center;
+				margin:10px 0px;
+			}
+			p{
+				font-size:18px;
+				color:$ternary_color;
+				text-align: center;
+				line-height: 30px;
+				letter-spacing: 1px;
+				margin:0px 13px;
+			}
+			}
+			}
+		}
+	
+//End history bottom section//
+//Start features Dishes in about us page//
+.dishes {
+	height: 800px;
+	width: 100%;
+	background-color: $forth_color;
+}
+.dishes-top {
+	height: 200px;
+	width: 100%;
+	font-size: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dishes-bottom {
+	height: 600px;
+	width:100%;
+	display: flex;
+	padding: 2% 5%;
+	gap: 15px;
+	background:#F5F8FD;
+}
+.dishes-1 {
+	width: 33%;
+	border-radius: 33px;
+	border: 5px solid $secondary_color;
+	background:$forth_color;
+	position: relative;
+	&:hover {
+		width: 33%;
+		border-radius: 30px;
+		border: 5px solid $primary_color;
+	}
+	img {
+		height: 100%;
+		width: 100%;
+		border-radius: 30px;
+		margin-top: 30px;
+		
+	}
+}
+.circle {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background: $secondary_color;
+	padding: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 43px;
+	font-size: 20px;
+	position: absolute;
+	left: 8%;
+	top: 5%;
+}
+.dishes-1-pic {
+	height: 400px;
+	border-radius: 33px;
+}
+.dishes-1-text {
+	height: 100px;
+	display: flex;
+	border-radius: 10%;
+	padding: 0px 10px;
+}
+.dishes-text-part {
+	width: 50%;
+	background-color: $forth_color;
+	padding: 0px 10px;
+	h3 {
+		padding: 6px 0px;
+	}
+	h4{
+		color:$ternary_color;
+		font-weight: 500;
+		font-size: 14px;
+		padding:5px 0px;
+	}
+}
+.dishes-text-part-1 {
+	    width:12%;
+    background-color: $secondary_color;
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 40px 15px 18px;
+    border-radius: 10px;
+    height: 50px;
+    align-content: stretch;
+    position:relative;
+    top:58%;
+	right:-32%;
+	font-size:23px;
+	img {
+		height: 40px;
+		width: 40px;
+		background-color: $secondary_color;
+		border-radius: 10px;
+		padding: 5px;
+		color: #000000;
+	}
+}
+//End Features Dishes section in about us page//
+
+
+//Start cheif Section//
+.expert {
+	height: 900px;
+	width: 97%;
+	margin:0px 0px 100px 44px;
+}
+.expert-top {
+	height: 200px;
+	background-color:$forth_color;
+}
+.expert-top-up {
+	height: 100px;
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+.expert-top-dow {
+	height: 100px;
+	display: flex;
+}
+.expert-top-dow-1 {
+	height: 20px;
+	width: 36.33%;
+}
+.expert-top-dow-2 {
+	height: 10px;
+	width: 15.33%;
+	background-color: $secondary_color;
+	border-radius: 20px;
+	margin: 43px 87px;
+	text-align: center;
+}
+.expert-bot {
+	height: 600px;
+	display: flex;
+	padding: 57px 5rem;
+}
+.expert-bot-1 {
+	width: 33.33%;
+	background-color: $forth_color;
+}
+.expert-bot-1-circle {
+	height: 400px;
+	width: 400px;
+	background-color: $forth_color;
+	border-radius: 100%;
+	text-align: center;
+	position: relative;
+	top: -33%;
+	border: 5px solid #ebf1fb;
+	&:hover {
+		border: 5px solid $secondary_color;
+	}
+	h1 {
+		font-size: 35px;
+		margin: -13px;
+		padding:2rem 0px 0px 0px;
+		font-family: $primary_font;
+		font-weight: 500;
+		line-height: 42px;
+		&:hover{
+			color:$primary_color;
+		}
+	}
+	h2 {
+		font-size: 19px;
+		padding: 2rem 6rem;
+		color:$ternary_color;
+		.icon{
+			margin:15px 15px;
+			&:hover{
+				transform: scale(1.4);
+			}
+		}
+	}
+	h3 {
+		font-size: 20px;
+		padding: 6rem 0px 0px 0px;
+		color:$primary_color ;
+		text-align: center;
+	}
+	h5 {
+		padding: 20px 6rem;
+	}
+}
+//End Cheif Section//
+
+
+//Start Review Section in about us page//
+.feedback {
+	height: 700px;
+	width: 100%;
+	display: flex;
+	background-color: $forth_color;
+
+.feedback-left {
+	width: 40%;
+	margin: 0px 10rem 0px 9rem;
+
+.feedback-left-1 {
+	height: 300px;
+	padding: 40px;
+	color: $ternary_color;
+	h1 {
+		font-size: 4.7rem;
+		color: #000000;
+		line-height: 100px;
+		margin:50px 0px 0px -32px;
+	}
+	h3{
+		color:$primary_color;
+		font-size:25px;
+		margin:25px 0px 0px 0px;
+	}
+}
+.feedback-left-2 {
+	height: 400px;
+	display: flex;
+}
+.feedback-textbox {
+	width:100%;
+	height:300px;
+	border: 3px solid $secondary_color;
+	padding: 9%;
+	position:relative;
+	border-radius: 20px;
+	margin: auto;
+	p {
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 40px;
+		color:$ternary_color;
+		margin: -21px auto;
+		text-align: center;
+		font-family:$primary_font;
+	}
+	h2 {
+		font-size: 30px;
+		padding: 25px 0px;
+		margin:15px 0px;
+	}
+	.comma{
+		position:absolute;
+		top:63%;
+		left:81%;
+	}
+}
+.checked {
+	color: $secondary_color;
+	font-size:22px;
+}
+}
+.feedback-right {
+	width: 60%;
+	background-color: $forth_color;
+	margin: 0px 0px 0px -10rem;
+	padding-left: 50px;
+
+.feedback-right-up {
+	height: 350px;
+	width: 100%;
+	display: flex;
+	.feedback-right-top {
+		height: 350px;
+		width: 33.33%;
+		position: relative;
+		top: 80%;
+	img{
+		border-radius:20px;
+	}
+	}
+	.feedback-right-mid {
+		height: 350px;
+		width: 33.33%;
+		position: relative;
+		top: 22%;
+		right: 5%;
+	}
+	
+}
+}
+.feedback-right-down {
+	height: 350px;
+	width: 100%;
+	display: flex;
+
+.feedback-right-bot {
+		height: 350px;
+		width: 33.33%;
+		position: relative;
+		top: 21%;
+		right: 17%;
+	}
+}
+}
+
+//End Review Section//

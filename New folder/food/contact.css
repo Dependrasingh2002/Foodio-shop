@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Fredoka:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family:'Epilogue';
+  font-family:'Fredoka';*/
+  font-family: "Fredoka";
+}
+
+.slide1 {
+  height: 400px;
+  width: 100%;
+  background: url(../images/services1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px 0px;
+  position: relative;
+}
+.slide1 h1 {
+  font-size: 50px;
+  position: absolute;
+  top: -150%;
+  left: 6%;
+  color: #000;
+}
+.slide1 .h {
+  height: 60px;
+  width: 17%;
+  border-radius: 5px;
+  padding: 16px 21px;
+  background-color: #f3264c;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+.slide1 .h a {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0px 5px;
+  text-decoration: none;
+}
+.slide1 .h i {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.get-touch {
+  min-height: 800px;
+  width: 100%;
+  margin: 50px 0px;
+}
+.get-touch .division1 {
+  height: 700px;
+  width: 85%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.get-touch .division1 .left {
+  height: 700px;
+  width: 50%;
+}
+.get-touch .division1 .left h1 {
+  font-size: 3em;
+  font-weight: 900;
+  padding: 30px 20px;
+}
+.get-touch .division1 .left .top {
+  height: 305px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.get-touch .division1 .left .top .top-part1 {
+  height: 261px;
+  width: 50%;
+  background: white;
+  border: 5px solid #FFD40D;
+  border-radius: 20px;
+  position: relative;
+}
+.get-touch .division1 .left .top .top-part1 .icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #f3264c;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+.get-touch .division1 .left .top .top-part1 .icon i {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 35%;
+}
+.get-touch .division1 .left .top .top-part1 .icon .envelope1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 23%;
+}
+.get-touch .division1 .left .top .top-part1 h6 {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  color: #F3274C;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.get-touch .division1 .left .top .top-part1 p {
+  font-size: 22px;
+  font-weight: 900;
+  position: absolute;
+  top: 65%;
+  left: 6%;
+}
+.get-touch .division1 .left .top .top-part1 h5 {
+  position: absolute;
+  left: 23%;
+  top: 50%;
+  color: #F3274C;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.get-touch .division1 .left i {
+  font-size: 33px;
+  font-weight: 900;
+  line-height: 30px;
+  margin: 25px 0px 0px 0px;
+}
+.get-touch .division1 .left span {
+  font-size: 19px;
+  color: #b6b6b6;
+  margin: 0px 0px 0px 23px;
+}
+.get-touch .division1 .right {
+  height: 700px;
+  width: 50%;
+  background: #ffffff;
+}
+.get-touch .division1 .right h1 {
+  font-size: 3em;
+  font-weight: 900;
+  padding: 30px 20px;
+}
+.get-touch .division1 .right p {
+  font-size: 19px;
+  color: #b6b6b6;
+  line-height: 30px;
+  margin: 0px 18px;
+}
+.get-touch .division1 .right .int {
+  width: 42%;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  border-radius: 10px;
+  border: 2px solid #ebf1fb;
+}
+.get-touch .division1 .right ::-moz-placeholder {
+  font-size: 25px;
+  color: #b6b6b6;
+  font-weight: bold;
+  text-align: left;
+}
+.get-touch .division1 .right ::placeholder {
+  font-size: 25px;
+  color: #b6b6b6;
+  font-weight: bold;
+  text-align: left;
+}
+.get-touch .division1 .right .mobile {
+  width: 92%;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  border-radius: 10px;
+  border: 2px solid #ebf1fb;
+  display: inline-block;
+}
+.get-touch .division1 .right textarea {
+  width: 92%;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  border-radius: 10px;
+  border: 2px solid #ebf1fb;
+}
+.get-touch .division1 .right .primary-buttton {
+  padding: 20px 25px;
+  background: #F3274C;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: 15px;
+  margin: 0px 35px;
+  position: relative;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.get-touch .division1 .right .primary-buttton::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1%;
+  background: white;
+  top: 70%;
+  left: 14%;
+  transition: all 0.5s;
+}
+.get-touch .division1 .right .primary-buttton:hover:after {
+  width: 73%;
+}
+.get-touch .division1 .right .primary-buttton:hover:before {
+  width: 40%;
+}
+.get-touch .division1 .right .primary-buttton::before {
+  content: "";
+  border: 3px solid #F3274C;
+  position: absolute;
+  top: -13%;
+  left: -5%;
+  height: 115%;
+  width: 85%;
+  border-radius: 15px;
+  z-index: -1;
+  transition: all 0.5s;
+}
+
+.video-section {
+  height: 750px;
+  width: 100%;
+  margin: 7em 0px 0px;
+  position: relative;
+}
+.video-section .video {
+  height: 600px;
+  width: 85%;
+  margin: 0px auto;
+  border-radius: 25px;
+}
+.video-section .video-bottom {
+  height: 230px;
+  width: 75%;
+  background: #f3264c;
+  margin: 0px auto;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 2%;
+  left: 12%;
+}
+.video-section .video-bottom .bottom-part {
+  height: 230px;
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.video-section .video-bottom .bottom-part .part {
+  height: 230px;
+  width: 30%;
+}
+.video-section .video-bottom .bottom-part .part h1 {
+  font-size: 30px;
+  font-weight: 900;
+  padding: 30px 10px 0px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.video-section .video-bottom .bottom-part .part p {
+  font-size: 25px;
+  font-weight: 900;
+  padding: 15px 10px 0px;
+  text-align: center;
+  color: #FFD40D;
+  text-transform: capitalize;
+}
+.video-section .video-bottom .bottom-part .part h6 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 15px 10px 0px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+}/*# sourceMappingURL=contact.css.map */

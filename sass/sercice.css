@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Fredoka:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family:'Epilogue';
+  font-family:'Fredoka';*/
+  font-family: "Fredoka";
+}
+
+.slide1 {
+  height: 400px;
+  width: 100%;
+  background: url(../image/services1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px 0px;
+  position: relative;
+}
+.slide1 h1 {
+  font-size: 50px;
+  position: absolute;
+  top: -150%;
+  left: 6%;
+  color: #000;
+}
+.slide1 .h {
+  height: 60px;
+  width: 16%;
+  border-radius: 10px;
+  padding: 16px 21px;
+  background-color: #f3264c;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+}
+.slide1 .h a {
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+.slide1 .h i {
+  font-size: 22px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.event {
+  height: 800px;
+  width: 100%;
+  padding: 2rem 0em;
+}
+.event .event-top {
+  height: 600px;
+  width: 100%;
+  display: flex;
+}
+.event .event-top .event-top-right {
+  width: 50%;
+  display: flex;
+  padding: 0em 2em;
+  gap: 2em;
+}
+.event .event-top .event-top-right .event-right-emg {
+  width: 50%;
+}
+.event .event-top .event-top-right .event-right-emg .p-imge {
+  height: 500px;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  top: 10%;
+  left: 13%;
+}
+.event .event-top .event-top-right .event-right-emg .p-imge img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+.event .event-top .event-top-right .event-right-emg .p-imge1 {
+  height: 150px;
+}
+.event .event-top .event-top-right .event-right-emg .p-imge1 img {
+  height: 100px;
+  width: 30%;
+}
+.event .event-top .event-top-right .event-right-emg1 {
+  width: 50%;
+}
+.event .event-top .event-top-right .event-right-emg1 .p-imge2 {
+  height: 380px;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+  top: 20%;
+  left: 13%;
+}
+.event .event-top .event-top-right .event-right-emg1 .p-imge2 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.event .event-top .event-top-left {
+  width: 50%;
+  background-color: #ffffff;
+  margin: 0em 2em;
+}
+.event .event-top .event-top-left h1 {
+  padding: 1em 2em 0.3em 0.8em;
+  font-size: 3em;
+  font-weight: 600;
+}
+.event .event-top .event-top-left p {
+  padding: 0.5em 2em 0.9em 2em;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.event .event-top .event-top-left h4 {
+  padding: 0.5em 2em 0.3em 2em;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.event .event-bot {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0em;
+}
+.event .event-bot .ne-g {
+  width: 25%;
+  text-align: center;
+}
+.event .event-bot .ne-g h4 {
+  color: #b6b6b6;
+  font-size: 1.2em;
+  padding: 1em 0em;
+  font-weight: 900;
+}
+.event .event-bot .ne-g h1 {
+  color: #f3264c;
+  font-size: 8em;
+}
+
+.food-order {
+  height: 600px;
+  width: 100%;
+  margin: 10rem 0px 0px 0px;
+}
+
+.food-order-up {
+  height: 200px;
+  background-color: #F5F8FD;
+}
+.food-order-up h3 {
+  padding: 3rem 3rem 0px 6rem;
+  color: #F3274C;
+}
+.food-order-up h1 {
+  padding: 0px 6rem;
+  font-size: 45px;
+}
+
+.food-order-down {
+  height: 400px;
+  display: flex;
+  background-color: #F5F8FD;
+}
+
+.food-order-down-1 {
+  width: 40%;
+  background-color: #F5F8FD;
+}
+.food-order-down-1 h2 {
+  padding: 3rem 3.9rem;
+}
+
+.header1 {
+  font-family: "Epilogue";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  padding: 29px 6rem;
+  color: #b6b6b6;
+}
+
+.head1 {
+  font-family: "Epilogue";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  color: #b6b6b6;
+  margin: -24px 6rem;
+}
+
+.heading {
+  font-family: "Epilogue";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  color: #b6b6b6;
+  margin: 25px 6rem;
+}
+
+.playImg {
+  margin: 0px 5.6px;
+}
+
+.food-order-down-2 {
+  width: 60%;
+  background-color: #F3274C;
+  padding: -16px 0px;
+  height: 352px;
+  border-radius: 258px 0px 0px 258px;
+}
+.food-order-down-2 img {
+  height: 150%;
+  width: 57%;
+  padding: 0px 6.5rem;
+  width: 100%;
+  margin: -142px 0px 0px 0px;
+}
+
+.gallery {
+  height: 800px;
+  width: 100%;
+  padding: 0em 2em;
+}
+.gallery .gallery-top {
+  height: 150px;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 300;
+}
+.gallery .gallery-top .line {
+  height: 10px;
+  width: 25%;
+  border: none;
+  border-radius: 10px;
+  margin: 0.4em 12em;
+  background-color: yellow;
+}
+.gallery .gallery-bot {
+  height: 700px;
+}
+.gallery .gallery-bot .gallery-1 {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  gap: 0;
+}
+.gallery .gallery-bot .gallery-1 .gallery-p {
+  width: 33.33%;
+  background-color: #f22d50;
+  margin: 1em 1em;
+  border-radius: 30px;
+}
+.gallery .gallery-bot .gallery-1 .gallery-p img {
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.form-table1 {
+  height: 600px;
+  width: 100%;
+  margin: 8em 0em;
+  padding: 3em 0em;
+  background-image: url(../images/reserve.jpg);
+}
+.form-table1 .form-table {
+  height: 400px;
+  width: 87%;
+  background-image: url(../images/patron.jpg);
+  border-radius: 20px;
+  margin: 50px 130px;
+  display: flex;
+}
+.form-table1 .form-table .form-table-part-1 {
+  width: 30%;
+  margin: 5px auto;
+}
+.form-table1 .form-table .top-tab {
+  height: 50%;
+  font-size: 38px;
+  padding: 15%;
+}
+.form-table1 .form-table .top-tab h1 {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.form-table1 .form-table .top-tab-1 {
+  height: 1%;
+  display: flex;
+}
+.form-table1 .form-table .border-tab {
+  width: 15%;
+}
+.form-table1 .form-table .border-1 {
+  width: 60%;
+  background-color: #FFD40D;
+  border-radius: 20px;
+}
+.form-table1 .form-table .border-2 {
+  width: 25%;
+}
+.form-table1 .form-table .top-tab-2 {
+  height: 48%;
+  font-size: 20px;
+  padding: 10% 15%;
+  color: #ffffff;
+}
+.form-table1 .form-table .form-table-part-2 {
+  width: 70%;
+}
+.form-table1 .form-table .form-table-part-2 .box {
+  height: 80%;
+  width: 95%;
+  margin: 5% auto;
+  background-color: #f3264c;
+}
+.form-table1 .form-table .form-table-part-2 .input {
+  height: 50px;
+  width: 40%;
+  border-radius: 10px;
+  font-size: 17px;
+  color: #000000;
+  text-transform: capitalize;
+  margin: 5% 5%;
+  padding: 0px 15px;
+}
+.form-table1 .form-table .form-table-part-2 ::-moz-placeholder {
+  font-weight: bold;
+}
+.form-table1 .form-table .form-table-part-2 ::placeholder {
+  font-weight: bold;
+}
+.form-table1 .form-table .form-table-part-2 .date {
+  height: 50px;
+  width: 20%;
+  border-radius: 10px;
+  margin: 5% 1%;
+  font-weight: bold;
+}
+.form-table1 .form-table .form-table-part-2 .time {
+  height: 50px;
+  width: 20%;
+  border-radius: 10px;
+}
+.form-table1 .form-table .form-table-part-2 .number {
+  height: 50px;
+  width: 40%;
+  border-radius: 10px;
+  margin: 0% 5%;
+  font-size: 17px;
+  padding: 0px 15px;
+  text-transform: capitalize;
+}
+.form-table1 .form-table .form-table-part-2 .number1 {
+  height: 50px;
+  width: 42%;
+  border-radius: 10px;
+  margin: 0% 1%;
+  padding: 0px 15px;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.form-table1 .form-table .form-table-part-2 .primary-buttton {
+  padding: 20px 25px;
+  background: #FFD40D;
+  color: #000;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: 15px;
+  position: relative;
+  top: 10%;
+  left: 75%;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.form-table1 .form-table .form-table-part-2 .primary-buttton::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1%;
+  background: #000;
+  top: 70%;
+  left: 14%;
+  transition: all 0.5s;
+}
+.form-table1 .form-table .form-table-part-2 .primary-buttton:hover:after {
+  width: 73%;
+}
+.form-table1 .form-table .form-table-part-2 .primary-buttton:hover:before {
+  width: 40%;
+}
+.form-table1 .form-table .form-table-part-2 .primary-buttton::before {
+  content: "";
+  border: 3px solid #FFD40D;
+  position: absolute;
+  top: -13%;
+  left: -5%;
+  height: 115%;
+  width: 85%;
+  border-radius: 15px;
+  z-index: -1;
+  transition: all 0.5s;
+}/*# sourceMappingURL=sercice.css.map */

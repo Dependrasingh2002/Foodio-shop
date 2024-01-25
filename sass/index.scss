@@ -1,0 +1,143 @@
+$primary_font:'Epilogue';
+$secondary_font:'Fredoka';
+$primary_color:#F3274C;
+$secondary_color:#FFD40D;
+$ternary_color:#b6b6b6;
+$forth_color:#ffffff;
+$primary_background:#f5f8fd;
+$secondary_background:#f3264c;
+$para_size:1em;
+$main_heading:3.8em;
+$small_heading:2.4em;
+$padding_top:2.4rem;
+$padding_bottom:2.4rem;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;200;300;400;500;600;700;800;900&family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /*font-family:'Epilogue';
+    font-family:'Fredoka';*/
+    font-family: $secondary_font;
+}
+
+//Start Recent News Section//
+.News{
+	height: 890px;
+	width: 100%;
+
+	.new-top{
+		height: 200px;
+		width: 100%;
+		padding: .8em 0em;
+		font-size: 3em;
+		text-align: center;
+		font-weight: 400;
+		.hr{
+			height: .2em;
+			width: 20%;
+			border-radius: 5px;
+			background-color:$secondary_color;
+			margin: .2em 12em;
+			border:2px none #000;
+		}
+	}
+	.new-bot {
+		height: 690px;
+		width: 100%;
+		display: flex;
+		padding: 0em 7em;
+		gap: 2em;
+		.card-1{
+			width:33.33%;
+			}
+			img{
+				height: 45%;
+				width: 100%;
+				border-radius: 20px;
+				text-align:center;
+				margin:0px 0px 25px 0px; 
+			}
+			.h11{
+				font-size:.7em;
+				padding:.8em 1.8em;
+				background-color:$secondary_color;
+				border-radius: 7px;
+				color:#000;
+				text-decoration: none;
+			}
+			.n1{
+				margin: 2em 0em .7em 0em;
+				a{
+					font-size:20px;
+				line-height:36px;
+				font-weight:500;
+				color:#747272;
+				}
+				}
+			h1{
+				font-size: 2em;
+			}
+			p{
+				font-size: 1.1em;
+				margin: .6em 0em;
+				font-weight: 400;
+				line-height: 30px;
+				color:$ternary_color;
+				font-family: $primary_font;
+			}
+	}
+}
+//End Recent News Section//
+//Start Gallery Section//
+.gallery{
+	height:550px;
+	width:100%;
+.gall{
+	height:550px;
+	width:100%;
+	margin:4.8rem 0px;
+	background:url("../images/follow.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+	.opac{
+		height:550px;
+		width:100%;
+		background:#f1f1f1;
+		opacity: .8;
+		position:relative;
+	.insta{
+			font-size:5.5rem;
+			position:absolute;
+			font-weight: bold;
+			top:25%;
+			left:48%;
+			text-align: center;
+			color:$primary_color;
+		}
+		h1{
+			position: absolute;
+			top: 45%;
+			left: 34%;
+			letter-spacing: 1px;
+			font-size: 3.4rem;
+			color: #000;
+			text-decoration: none;
+		}
+		p{
+			font-size:1.2rem;
+			color:#7b7676;
+			font-weight:400;
+			line-height: 30px;
+			font-family: $primary_font;
+			position:absolute;
+			top:57%;
+			left:38%;
+			text-align:center;
+		}
+	}
+}
+//End Gallery Section//
